@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forumula_leading_in_layout"
+    android:layout_width="match_parent"
+    android:layout_height="330dip"
+    android:layout_gravity="center"
+    android:background="@color/page_bg"
+    android:orientation="vertical" >
+    <TextView
+         android:id="@+id/file_dialog_title_id"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/recipe_text_view_height"
+         android:layout_gravity="center"
+         android:paddingLeft="3dip"
+         android:gravity="center|left"
+         android:background="@color/recipe_dialog_button_bg_color"
+         android:text="@string/menu_reduction_data_title_text"
+         android:textColor="@color/white"
+         android:singleLine="true" 
+         android:textSize="20sp" />
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="257dip"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:orientation="vertical" >
+	    <ListView
+            android:id="@+id/file_dialog_file_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="#C6C7C7"
+            android:dividerHeight="1dip"/>
+	</LinearLayout>
+	
+    <View 
+    	 android:layout_width="match_parent"  
+         android:layout_height="1dip"
+         android:background="#C6C7C7"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/recipe_button_height"
+	    android:gravity="center"
+	    android:orientation="horizontal"
+	    android:background="@color/white"
+	    >
+      	<Button   
+          android:id="@+id/file_dialog_button_cancel_id"  
+          android:layout_width="match_parent"  
+          android:layout_height="wrap_content" 
+          android:background="@color/white"              
+          android:textColor="@color/ranking_font_color"
+          android:text="@string/main_cancel"/>
+    </LinearLayout>
+</LinearLayout>

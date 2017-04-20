@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="historical_list_num1_font">20sp</dimen>
+    <dimen name="historical_list_num2_font">14sp</dimen>
+    <dimen name="historical_list_num3_font">14sp</dimen>
+    
+    <dimen name="ranking_list_num_font">15.0dip</dimen>
+    <dimen name="add_recipe_text_font">13.0dip</dimen>
+    <!--界面距离左右边界得距离-->
+    <dimen name="page_left_seat">14.0dip</dimen>
+    <dimen name="page_right_seat">14.0dip</dimen>
+    <dimen name="recipe_edit_horizontal_seat">14.0dip</dimen>
+    <dimen name="recipe_edit_vertical_seat">4.0dip</dimen>
+    <!--历史配方输入框边距设置-->
+    <dimen name="historical_recipe_edittext_seat">8.0dip</dimen>
+    <!--维护界面list宽度距离设置-->
+    <dimen name="keep_activitu_list_progress">252dip</dimen>
+   	<dimen name="keep_activitu_list_left_seat">10dip</dimen>
+   	<dimen name="keep_activitu_list_right_seat">6dip</dimen>
+   	<!--新增配方输入框边距设置-->
+    <dimen name="add_recipe_edittext_seat">4.0dip</dimen>
+    <!--list距离上下控件间距设置-->
+    <dimen name="recipe_list_top_seat">8.0dip</dimen>
+	
+    <!--程序用到得控件默认大小设置，主要用于对控件最小高度进行设置-->
+    <dimen name="recipe_list_item_height">38dip</dimen>
+    <dimen name="recipe_edit_text_small_height">28dip</dimen>
+    <dimen name="recipe_edit_text_height">32dip</dimen>
+    <dimen name="recipe_edit_text_long_height">90dip</dimen>
+    <dimen name="recipe_text_view_height">32dip</dimen>
+    <dimen name="recipe_button_height">40dip</dimen>
+    <dimen name="recipe_button_small_height">30dip</dimen>
+    <dimen name="recipe_small_button_height">40dip</dimen>
+    <dimen name="recipe_dialog_width">280dip</dimen>
+    <dimen name="recipe_dialog_height">350dip</dimen>
+    <!--用于popup menu 规范设置-->
+    <dimen name="popup_menu_outside_padding">20dip</dimen>
+    <dimen name="popup_menu_inside_padding">12dip</dimen>
+    <dimen name="popup_menu_top_padding">2dip</dimen>
+    <dimen name="popup_menu_item_height">50dip</dimen>
+    <dimen name="popup_menu_text_size">20dip</dimen>
+    
+    <!-- 开关滑块宽度 -->
+    <dimen name="menu_button_close_icon_width">35dip</dimen>
+    
+    <!--横向滑动list按钮高度-->
+    <dimen name="header_scroll_button_height">15.0dip</dimen>
+    
+    <!-- server 控件间隔-->
+    <dimen name="driver_edit_space_height">10dip</dimen>
+    <dimen name="driver_menu_text_height">25dip</dimen>
+    <dimen name="driver_menu_list_height">55dip</dimen>
+    <dimen name="driver_menu_list_left_width">40dip</dimen>
+    <dimen name="driver_menu_list_text_font">20dip</dimen>
+    
+    <!-- 历史配方查询结果左右间隔间隔-->
+    <dimen name="historical_list_left_right_padding">20dip</dimen>
+    <!-- 新增配方界面list高度-->
+    <dimen name="add_activity_list_height">110dip</dimen>
+</resources>

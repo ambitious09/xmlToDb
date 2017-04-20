@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">testXmlIp</string>
+    <string name="app_service">Service</string>
+    <!-- 涓荤晫闈� -->
+    <string name="maintab_ranking">Ranking</string>
+    <string name="maintab_color">Color</string>
+    <string name="maintab_keep">Keep</string>
+    <string name="main_ok">OK</string>
+    <string name="main_cancel">cancel</string>
+    <string name="rank_tilte">Recommended</string>
+    <string name="my_favorite">MyFavorite</string>
+    <string name="tab_recipe_standard">StandardRecipe</string>
+    <string name="tab_recipe_My">Myrecipe</string>
+    <string name="tab_recipe_historical">HistoricalRecipe</string>
+    <string name="tab_manually_palette">ManuallyPalette</string>
+    <string name="historica_list_color_date">ManuallyPalette</string>
+    <string name="historica_list_recipe_number">ManuallyPalette</string>
+    <string name="menu_reduction_data_title_text">select a reduction file</string>
+    <string name="title_activity_parent">ParentActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_introduction_updata_title_text">导入失败</string>
+    <string name="menu_introduction_data_dialog_over">导入成功</string>
+    <string name="your_network_has_disconnected">your network has disconnected!</string>
+     <!--店铺认证界面  -->
+    <string name="shop_code">ShopCode:</string>
+    <string name="shop_name">ShopName:</string>
+    <string name="shop_address">ShopAddress:</string>
+    <string name="shop_phone">ShopPhone:</string>
+    <string name="shop_data">Shop Data</string>
+    <string name="clenr">Program exits</string>
+</resources>

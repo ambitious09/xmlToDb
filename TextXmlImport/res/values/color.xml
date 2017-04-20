@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="milky_white">#DDDDDD</color>
+    <color name="black">#000000</color>
+    <color name="grey">#888888</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning_red">#ff0000</color>
+
+    <color name="second_page_bg">#EEEBE0</color>
+    
+    <color name="page_bg">#ffffff</color>
+    <color name="ranking_font_color">#ff666666</color>
+    <color name="about_font_color">#ff585656</color>
+    
+    <color name="tab_top_selected">#007a9c</color>
+    <color name="tab_top_unselected">#1395b5</color>
+    
+    <color name="list_divider_color">#9FA0A0</color>
+    
+    <color name="mixer_customer_left_list_bg">#FFDCDDDD</color>
+    <color name="mixer_customer_right_list_bg">#FFEBECEC</color>
+    
+    <color name="recipe_dialog_button_bg_color">#51B5C4</color>
+    
+    <color name="recipe_title_bg_color">#1EA8CD</color>
+    
+    <color name="menu_data_title_bg_color">#909291</color>
+    <!-- 用于所有按钮button字体颜色 -->
+    <color name="recipe_button_font_color">#ffffff</color>
+    <!-- server 选项text颜色 -->
+    <color name="driver_menu_text_color">#DDDDDD</color>
+    <!-- server title背景颜色 -->
+    <color name="driver_title_bg_color">#1AAC7B</color>
+    <!-- 蓝牙选择背景颜色 -->
+    <color name="popup_background_color">#DFDFDC</color>
+    <!-- keep list选择背景颜色 -->
+    <color name="keep_list_background_color">#ffa1d7dd</color>
+    
+    <!-- 历史配方查询列表字体颜色-->
+    <color name="historical_list_num1_font_color">#807F7F</color>
+    <color name="historical_list_num2_font_color">#676565</color>
+    <color name="historical_list_num3_font_color">#676565</color>
+    
+    <!-- 历史配方查询列表字体颜色-->
+    <color name="driver_new_wizard_progress_color">#F7ED11</color>
+    <color name="driver_new_wizard_ahead_color">#B5B7B6</color>
+    <color name="driver_new_wizard_step_font_color">#35A376</color>
+    
+    <!-- about 间隔线颜色-->
+    <color name="about_line_space_color">#ffD7D7D7</color>
+</resources>
