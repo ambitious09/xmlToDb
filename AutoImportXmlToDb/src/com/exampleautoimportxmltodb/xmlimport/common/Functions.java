@@ -1,14 +1,13 @@
 package com.exampleautoimportxmltodb.xmlimport.common;
 
 /***
- * 方法
+ * 路陆路篓
  *
  */
 public final class Functions {
 	
 	/***
-	 * 方法
-	 * @author 张雷明
+	 * 路陆路篓
 	 *
 	 * @param <R>
 	 */
