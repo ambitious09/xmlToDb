@@ -2,7 +2,7 @@ package com.exampleautoimportxmltodb.xmlimport.common;
 
 /***
  * 
- * @author Áõºì½Ü
+ *
  * 
  */
 public class HasNotReadInfoEventArgs
@@ -10,7 +10,7 @@ public class HasNotReadInfoEventArgs
 	private int _notreadinfocount;
 
 	/***
-	 * Î´¶ÁÏûÏ¢¸öÊı
+	 * æœªè¯»æ¶ˆæ¯ä¸ªæ•°
 	 */
 	public int getNotReadInfoCount()
 	{
@@ -18,10 +18,10 @@ public class HasNotReadInfoEventArgs
 	}
 
 	/***
-	 * ¹¹Ôìº¯Êı
+	 * æ„é€ å‡½æ•°
 	 * 
 	 * @param count
-	 *            Î´¶ÁÏûÏ¢¸öÊı
+	 *            æœªè¯»æ¶ˆæ¯ä¸ªæ•°
 	 */
 	public HasNotReadInfoEventArgs(int count)
 	{
