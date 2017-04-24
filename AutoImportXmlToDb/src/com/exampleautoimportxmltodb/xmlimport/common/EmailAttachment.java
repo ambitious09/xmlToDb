@@ -3,25 +3,25 @@ package com.exampleautoimportxmltodb.xmlimport.common;
 import java.io.InputStream;
 
 /***
- * 邮件附件实体
+ * 閭欢闄勪欢瀹炰綋
  * 
- * @author 张雷明
+ * 
  *
  */
 public class EmailAttachment {
 
 	/***
-	 * 附件名称
+	 * 闄勪欢鍚嶇О
 	 */
 	public String AttachmentName;
 	
 	/***
-	 * 附件文件完整路径
+	 * 闄勪欢鏂囦欢瀹屾暣璺緞
 	 */
 	public String FullAttachmentName;
 	
 	/***
-	 * 附件内容
+	 * 闄勪欢鍐呭
 	 */
 	public InputStream AttachmentContent;
 }
