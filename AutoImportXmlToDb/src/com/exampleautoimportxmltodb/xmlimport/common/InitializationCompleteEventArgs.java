@@ -2,9 +2,9 @@ package com.exampleautoimportxmltodb.xmlimport.common;
 
 
 /***
- * ³õÊ¼»¯Íê³É
+ * åˆå§‹åŒ–å®Œæˆ
  * 
- * @author ÕÅÀ×Ã÷
+ *
  * 
  */
 public class InitializationCompleteEventArgs
@@ -12,7 +12,7 @@ public class InitializationCompleteEventArgs
 	private CompletedStatus _completedstatus;
 
 	/***
-	 * Íê³É×´Ì¬
+	 * å®ŒæˆçŠ¶æ€
 	 */
 	public CompletedStatus geetCompletedStatus()
 	{
@@ -22,7 +22,7 @@ public class InitializationCompleteEventArgs
 	private String _code;
 
 	/***
-	 * ĞÅÏ¢´úÂë
+	 * ä¿¡æ¯ä»£ç 
 	 */
 	public String getCode()
 	{
@@ -30,12 +30,12 @@ public class InitializationCompleteEventArgs
 	}
 
 	/***
-	 * ¹¹Ôìº¯Êı
+	 * æ„é€ å‡½æ•°
 	 * 
 	 * @param completedStatus
-	 *            Íê³É×´Ì¬
+	 *            å®ŒæˆçŠ¶æ€
 	 * @param message
-	 *            Íê³ÉĞÅÏ¢
+	 *            å®Œæˆä¿¡æ¯
 	 */
 	public InitializationCompleteEventArgs(CompletedStatus completedStatus, String message)
 	{
