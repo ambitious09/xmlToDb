@@ -7,9 +7,9 @@ import com.exampleautoimportxmltodb.xmlimport.common.CompletedStatus;
 
 
 /***
- * Åä·½µ¼ÈëÍê³ÉÊÂ¼ş²ÎÊı
+ * é…æ–¹å¯¼å…¥å®Œæˆäº‹ä»¶å‚æ•°
  * 
- * @author Áõºì½Ü
+ *
  * 
  */
 public class FormulaImportCompletedEventArgs
@@ -19,7 +19,7 @@ public class FormulaImportCompletedEventArgs
 	private File _file;
 
 	/***
-	 * µ¼ÈëÍê³É×´Ì¬
+	 * å¯¼å…¥å®ŒæˆçŠ¶æ€
 	 */
 	public CompletedStatus getCompletedStatus()
 	{
@@ -27,7 +27,7 @@ public class FormulaImportCompletedEventArgs
 	}
 
 	/***
-	 * ĞÅÏ¢´úÂë
+	 * ä¿¡æ¯ä»£ç 
 	 */
 	public String getCode()
 	{
@@ -35,7 +35,7 @@ public class FormulaImportCompletedEventArgs
 	}
 	
 	/***
-	 * µ¼ÈëÎÄ¼ş
+	 * å¯¼å…¥æ–‡ä»¶
 	 */
 	public File getFile()
 	{
@@ -43,12 +43,12 @@ public class FormulaImportCompletedEventArgs
 	}
 
 	/***
-	 * ¹¹Ôìº¯Êı
+	 * æ„é€ å‡½æ•°
 	 * 
 	 * @param completedStatus
-	 *            µ¼ÈëÍê³É×´Ì¬
+	 *            å¯¼å…¥å®ŒæˆçŠ¶æ€
 	 * @param message
-	 *            µ¼ÈëÍê³ÉĞÅÏ¢
+	 *            å¯¼å…¥å®Œæˆä¿¡æ¯
 	 */
 	public FormulaImportCompletedEventArgs(CompletedStatus completedStatus, String message,File file)
 	{
