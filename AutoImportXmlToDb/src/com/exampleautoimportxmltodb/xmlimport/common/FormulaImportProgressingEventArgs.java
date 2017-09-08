@@ -2,8 +2,9 @@ package com.exampleautoimportxmltodb.xmlimport.common;
 import com.exampleautoimportxmltodb.xmlimport.common.ImportProgressingStatus;
 
 /***
- * é…æ–¹å¯¼å…¥è¿›åº¦äº‹ä»¶å‚æ•°
+ * Åä·½µ¼Èë½ø¶ÈÊÂ¼ş²ÎÊı
  * 
+ * @author Áõºì½Ü
  * 
  */
 public class FormulaImportProgressingEventArgs
@@ -13,7 +14,7 @@ public class FormulaImportProgressingEventArgs
 	private String _message;
 
 	/***
-	 * å¯¼å…¥è¿›åº¦çŠ¶æ€
+	 * µ¼Èë½ø¶È×´Ì¬
 	 * 
 	 * @return
 	 */
@@ -23,7 +24,7 @@ public class FormulaImportProgressingEventArgs
 	}
 
 	/***
-	 * ä¿¡æ¯ä»£ç 
+	 * ĞÅÏ¢´úÂë
 	 */
 	public String getCode()
 	{
@@ -31,9 +32,9 @@ public class FormulaImportProgressingEventArgs
 	}
 
 	/***
-	 * ä¿¡æ¯
+	 * ĞÅÏ¢
 	 * 
-	 * @return ä¿¡æ¯
+	 * @return ĞÅÏ¢
 	 */
 	public String getMessage()
 	{
@@ -41,12 +42,12 @@ public class FormulaImportProgressingEventArgs
 	}
 
 	/***
-	 * æ„é€ å‡½æ•°
+	 * ¹¹Ôìº¯Êı
 	 * 
 	 * @param progressing
-	 *            è¿›åº¦çŠ¶æ€
+	 *            ½ø¶È×´Ì¬
 	 * @param code
-	 *            è¿›åº¦ä¿¡æ¯
+	 *            ½ø¶ÈĞÅÏ¢
 	 */
 	public FormulaImportProgressingEventArgs(ImportProgressingStatus progressing, String code)
 	{
@@ -55,14 +56,14 @@ public class FormulaImportProgressingEventArgs
 	}
 
 	/***
-	 * æ„é€ å‡½æ•°
+	 * ¹¹Ôìº¯Êı
 	 * 
 	 * @param progressing
-	 *            è¿›åº¦çŠ¶æ€
+	 *            ½ø¶È×´Ì¬
 	 * @param code
-	 *            è¿›åº¦ä¿¡æ¯ä»£ç 
+	 *            ½ø¶ÈĞÅÏ¢´úÂë
 	 * @param message
-	 *            è¿›åº¦ä¿¡æ¯
+	 *            ½ø¶ÈĞÅÏ¢
 	 */
 	public FormulaImportProgressingEventArgs(ImportProgressingStatus progressing, String code, String message)
 	{

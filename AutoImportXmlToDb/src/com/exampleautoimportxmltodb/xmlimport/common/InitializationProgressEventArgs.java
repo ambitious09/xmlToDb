@@ -1,9 +1,9 @@
 package com.exampleautoimportxmltodb.xmlimport.common;
 
 /***
- * åˆå§‹åŒ–è¿›å±•äº‹ä»¶å‚æ•°
+ * ³õÊ¼»¯½øÕ¹ÊÂ¼ş²ÎÊı
  * 
- *
+ * @author Áõºì½Ü
  * 
  */
 public class InitializationProgressEventArgs
@@ -11,7 +11,7 @@ public class InitializationProgressEventArgs
 	private String _code;
 
 	/***
-	 * ä¿¡æ¯ä»£ç 
+	 * ĞÅÏ¢´úÂë
 	 * 
 	 * @return
 	 */
@@ -21,10 +21,10 @@ public class InitializationProgressEventArgs
 	}
 
 	/***
-	 * æ„é€ å‡½æ•°
+	 * ¹¹Ôìº¯Êı
 	 * 
 	 * @param message
-	 *            è¿›åº¦ä¿¡æ¯
+	 *            ½ø¶ÈĞÅÏ¢
 	 */
 	public InitializationProgressEventArgs(String message)
 	{

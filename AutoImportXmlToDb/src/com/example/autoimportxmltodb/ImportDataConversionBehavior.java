@@ -67,14 +67,14 @@ abstract class ImportDataConversionBehavior
 }
 
 /***
- * ColorExpert3标准配方导入数据转化行为类
+ * 标准配方导入数据转化行为类
  */
-class ColorExpert3_1StandardFormulaImport extends ImportDataConversionBehavior
+class StandardFormulaImport extends ImportDataConversionBehavior
 {
 	/***
 	 * ColorExpert3数据转化行为类构造函数
 	 */
-	public ColorExpert3_1StandardFormulaImport(FormulaImportParam standardFormulaParam)
+	public StandardFormulaImport(FormulaImportParam standardFormulaParam)
 	{
 		super(standardFormulaParam);
 	}

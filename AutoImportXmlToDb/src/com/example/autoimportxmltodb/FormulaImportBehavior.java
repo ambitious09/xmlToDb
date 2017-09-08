@@ -1619,7 +1619,7 @@ class StandardFormulaImportBehavior extends FormulaImportBehavior
 		switch (formulaImportParam.ImportFileVersion)
 		{
 		case ColorExpert3_1:
-			importDataConversionBehavior = new ColorExpert3_1StandardFormulaImport(formulaImportParam);
+			importDataConversionBehavior = new StandardFormulaImport(formulaImportParam);
 			break;
 		}
 
